@@ -5,8 +5,10 @@ import java.io.Serializable;
 
 public class VideoStorage implements Serializable {
 	
+	//video properties needed to calculate storage
 	private int seconds;
 	private int videoQuality;
+	//variables to store calculated size
 	private double sizeMB;
 	private double sizeGB;
 	
